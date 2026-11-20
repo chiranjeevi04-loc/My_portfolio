@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goligi Chiranjeevi | E-Portfolio</title>
+<meta name="description" content="E-Portfolio of Goligi Chiranjeevi, B.Tech CSE (Generative AI) student at Manav Rachna University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#home">Chiranjeevi<span>.</span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+  <nav id="links">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#education">Education</a>
+    <a href="#projects">Projects</a><a href="#internship">Internship</a><a href="#certifications">Certifications</a>
+    <a href="#interests">Interests</a><a href="#contact" class="nav-cta">Contact</a>
+  </nav>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <p class="hello">Hi, I'm</p>
+    <h1>Goligi Chiranjeevi</h1>
+    <p class="role">Aspiring Computer Vision &amp; Generative AI Enthusiast</p>
+    <p class="lead">B.Tech Computer Science student at Manav Rachna University, specialising in Generative AI. I build data-driven Python projects and I'm working towards practical, real-world technology solutions.</p>
+    <div class="btn-row">
+      <a class="btn primary" href="assets/Chiranjeevi_CV.pdf" download><i class="fa-solid fa-download"></i> Download CV</a>
+      <a class="btn ghost" href="#projects"><i class="fa-solid fa-layer-group"></i> View projects</a>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/chiranjeevi04-loc" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/chiranjeevi-goligi-823aa9277/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="mailto:chirugoligi@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <!-- To use your photo: replace the <div class="photo"> below with <img class="photo" src="assets/profile.jpg" alt="Goligi Chiranjeevi"> -->
+    <div class="photo" role="img" aria-label="Profile photo placeholder"><span>GC</span><small>Replace with your photo</small></div>
+    <div class="glass tag"><i class="fa-solid fa-location-dot"></i> Gandhidham, Gujarat, India</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="reveal">
+  <h2>About me</h2>
+  <div class="about-grid">
+    <div class="glass pad">
+      <p>I'm a Computer Science student with a steady interest in how technology solves real problems. My focus is Generative AI and Machine Learning, and I enjoy turning data into something I can explore, visualise and learn from.</p>
+      <p>I work in Python, C and JavaScript, and I like breaking problems down with data structures and algorithms. I keep exploring new tools and ideas, and my goal is to build practical technology solutions that people can actually use.</p>
+    </div>
+    <ul class="facts glass pad">
+      <li><i class="fa-solid fa-graduation-cap"></i><div><b>B.Tech, Computer Science Engineering</b><span>Specialisation: Generative AI</span></div></li>
+      <li><i class="fa-solid fa-building-columns"></i><div><b>Manav Rachna University</b><span>3rd Semester</span></div></li>
+      <li><i class="fa-solid fa-calendar-check"></i><div><b>Expected graduation</b><span>2029</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="reveal">
+  <h2>Skills</h2>
+  <div class="grid cols-3" id="skillGrid"></div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="reveal">
+  <h2>Education</h2>
+  <div class="timeline">
+    <div class="t-item">
+      <div class="glass pad">
+        <h3>B.Tech, Computer Science Engineering</h3>
+        <p class="muted">Manav Rachna University</p>
+        <div class="chips"><span>Specialisation: Generative AI</span><span>Currently in 3rd Semester</span><span>Expected graduation: 2029</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="reveal">
+  <h2>Projects</h2>
+  <div class="grid cols-3" id="projectGrid"></div>
+</section>
+
+<!-- INTERNSHIP -->
+<section id="internship" class="reveal">
+  <h2>Internship experience</h2>
+  <div class="glass pad intern">
+    <div class="stat"><b>42</b><span>hours of internship experience</span></div>
+    <div>
+      <!-- EDIT: add your organisation and role below -->
+      <h3 id="internOrg">Organisation name</h3>
+      <p class="muted"><i class="fa-regular fa-calendar"></i> Started 1 July 2026</p>
+      <p>A hands-on internship that gave me practical exposure to a professional environment and supported my learning and professional development alongside my degree.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="reveal">
+  <h2>Certifications</h2>
+  <div class="grid cols-3" id="certGrid"></div>
+  <h3 class="sub">Workshop</h3>
+  <div class="grid cols-3" id="workshopGrid"></div>
+</section>
+
+<!-- INTERESTS -->
+<section id="interests" class="reveal">
+  <h2>Interests &amp; languages</h2>
+  <div class="grid cols-2">
+    <div class="glass pad"><h3>Interests</h3><div class="chips" id="interestChips"></div></div>
+    <div class="glass pad"><h3>Languages</h3><div class="chips" id="langChips"></div></div>
+  </div>
+</section>
+
+<!-- OBJECTIVE -->
+<section id="objective" class="reveal">
+  <h2>Career objective</h2>
+  <blockquote class="glass pad objective">To start my career as a Computer Science engineer where I can apply my skills in Python and data analysis, deepen my knowledge of Generative AI and Machine Learning, and keep learning new technologies while contributing to real, practical solutions.</blockquote>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="reveal">
+  <h2>Get in touch</h2>
+  <div class="glass pad contact">
+    <p>I'm open to internship opportunities and conversations about technology and AI.</p>
+    <ul class="contact-list">
+      <li><i class="fa-solid fa-envelope"></i><a href="mailto:chirugoligi@gmail.com">chirugoligi@gmail.com</a></li>
+      <li><i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/in/chiranjeevi-goligi-823aa9277/" target="_blank" rel="noopener">linkedin.com/in/chiranjeevi-goligi</a></li>
+      <li><i class="fa-brands fa-github"></i><a href="https://github.com/chiranjeevi04-loc" target="_blank" rel="noopener">github.com/chiranjeevi04-loc</a></li>
+    </ul>
+    <div class="btn-row">
+      <a class="btn primary" href="mailto:chirugoligi@gmail.com?subject=Hello%20Chiranjeevi"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/chiranjeevi-goligi-823aa9277/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> Connect on LinkedIn</a>
+      <a class="btn ghost" href="https://github.com/chiranjeevi04-loc" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Visit GitHub</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Goligi Chiranjeevi. B.Tech CSE (Generative AI), Manav Rachna University.</p>
+  <p class="muted">Gandhidham, Gujarat, India</p>
+</footer>
+
+<button id="toTop" class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<dialog id="projectDialog">
+  <button class="close" id="dlgClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+  <div id="dlgBody"></div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
